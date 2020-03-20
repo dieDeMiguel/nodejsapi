@@ -1,0 +1,70 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    background-color: #072146;
+    height: 88px;
+    font-family: 'Lato', 'sans-serif';
+    color: white;
+    font-weight: 200;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header .logo {
+    margin-top: 5px;
+}
+.people-business {
+    padding: 10px;
+    margin-top: 18px;
+    font-size: 19px;
+}
+
+.left-header {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+}
+
+.right-header .banca {
+    background-color: #3CA5A4;
+    color: white;
+    padding: 18px 10px;
+    margin: 7px 9px;
+    font-weight: 200;
+    height: 10px;
+    width: 176px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.lens, .hamburger {
+    padding: 10px;
+    margin: 12px 9px;
+    font-weight: 600;
+}
+
+
+/* Main Body of the web page */
+
+main {
+    height: 400px;
+    background-color: #48A5E6;
+}
+
+
+
